@@ -1,0 +1,12 @@
+# Terraform state files (These contain sensitive data and should never be shared)
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Lambda zip files (Generated automatically)
+*.zip
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
